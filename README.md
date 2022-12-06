@@ -1,23 +1,30 @@
-# CS175-NLP
+# The external libraries our team used with the URL for each Libraries used: 
 
-external libraries  
-Mention the external libraries your team used (libraries that are not default to python but
-need to be downloaded for your code to run), with the URL for each
-Libraries used:
-• XXX (URL1)  
+    • pytorch (https://pytorch.org/)
+    • pandas (https://pandas.pydata.org/)
+    • emoji (https://pypi.org/project/emoji/)
+    • Matplotlib (https://matplotlib.org/)
 
-publicly available code  
-List the publicly available code(s) you used in your project. Please provide the URL for the
-code and mention if you modified the code or not. If you modified the code, please mention
-the number of lines your team modified or added.
-Publicly available codes used:
-• YYY (URL2)
-• ZZZ (URL3). Modified/added approximately 50 lines of code  
 
-code written entirely by your team  
-List the code(s) written entirely by your team. Please roughly mention how
-many lines of code is present in each and provide a brief description (for each) of what the
-code does.
-Scripts/functions written by our team:
-• AAA.py Converts tweets into bag of words format
-• BBB.py Identifies the top K most important features in a tree-based classifier
+# The publicly available code we used in our project:
+
+    • CHATBOT TUTORIAL (https://pytorch.org/tutorials/beginner/chatbot_tutorial.html): 
+        - Modified & added approximately 140 lines of code
+
+# The code written entirely by our team:
+
+    All our own newly added functions are in CS175_nlpnet.ipynb.
+    
+    • Through our research, we added two new datasets found, WikiQA Corpus and Twitter Conversational Corpus.
+       We added about 53 lines for preprocessing and merging the vocabulary and the list of pairs altogether.
+
+    • For interaction with chat bot, we made changes in "evaluateInput" function and added our own code.
+       We added about 11 lines. The changes we've made provide a better user interface for review participants, 
+       while we're better able to collect scores of review participants and prepare scores for visualization. 
+
+    • For User Studies, we wrote ten blocks of codes that represents the survey for 10 participants to start chatting.
+       We printed the output of participants' ratings and we plotted them to observe the data distribution.
+       We added about 62 lines. 
+
+    • In order to make the Jupyter notebook that demonstrates important aspects, 
+       we added 2 lines about pickle to store the vocabulary.
