@@ -1,4 +1,4 @@
-# The external libraries our team used with the URL for each Libraries used: 
+## The external libraries our team used with the URL for each Libraries used: 
 
     • pytorch (https://pytorch.org/)
     • pandas (https://pandas.pydata.org/)
@@ -6,12 +6,12 @@
     • Matplotlib (https://matplotlib.org/)
 
 
-# The publicly available code we used in our project:
+## The publicly available code we used in our project:
 
     • CHATBOT TUTORIAL (https://pytorch.org/tutorials/beginner/chatbot_tutorial.html): 
         - Modified & added approximately 140 lines of code
 
-# The code written entirely by our team:
+## The code written entirely by our team:
 
     All our own newly added functions are in CS175_nlpnet.ipynb.
     
